@@ -1,5 +1,5 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(247, 241, 125 );
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(247, 241, 125 );
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -33,8 +33,9 @@ html{
   border: 1px solid black;
 }
 
-h2{
-  color: black;
+h2{text-align: center;
+  color: red;
+  
 /*   font-size: 10px; */
 }
 
