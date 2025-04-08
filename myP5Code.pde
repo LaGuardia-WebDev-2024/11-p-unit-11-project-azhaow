@@ -93,6 +93,19 @@ text(insects[1], 250, -200);
 text(insects[1], 330, -250);
 rotate(-1.5);
 
+var butterflies = ["ʚїɞ","ʚїɞ","ʚїɞ"];
+var butterfliesColor = [color (200,0,0), color(0,200,0), color(0,0,200)];
+
+fill(butterfliesColor[0]);
+text(butterflies[0],20,200);
+fill(butterfliesColor[1]);
+text(butterflies[1],200,220);
+fill(butterfliesColor[2]);
+text(butterflies[2], 450, 250);
+
+
+
+
 var x = 0
   while(x < 850){
   fill(255,255,255);
@@ -104,7 +117,6 @@ var x = 0
   }
 
 
-  
     
 }
 
